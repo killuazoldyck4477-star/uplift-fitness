@@ -1,0 +1,840 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- ===== PRIMARY SEO ===== -->
+  <title>UpLift Fitness | Gym Accessories & Fitness Gear in Bangladesh</title>
+  <meta name="description" content="Shop premium gym accessories & fitness gear in Bangladesh: knee supports, dumbbells, kettlebells, jump ropes, massage guns & boxing gear. Cash on Delivery, free nationwide shipping.">
+  <meta name="keywords" content="gym accessories Bangladesh, fitness gear Dhaka, knee support, dumbbell, kettle bell, jump rope, massage gun, boxing gear">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <meta name="author" content="UpLift Fitness">
+  <meta name="theme-color" content="#0a0f1d">
+  <link rel="canonical" href="https://upliftfitness.com/">
+  <!-- TODO: swap upliftfitness.com below (canonical, og:url, twitter:image, JSON-LD) for your real live domain -->
+
+  <!-- ===== OPEN GRAPH / FACEBOOK ===== -->
+  <meta property="og:site_name" content="UpLift Fitness">
+  <meta property="og:title" content="UpLift Fitness | Built For Strength">
+  <meta property="og:description" content="Premium gym accessories & fitness gear designed to elevate your performance. Cash on Delivery, free nationwide shipping across Bangladesh.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://upliftfitness.com/">
+  <meta property="og:image" content="https://upliftfitness.com/Uplift_Logo.png">
+  <meta property="og:image:alt" content="UpLift Fitness logo">
+  <meta property="og:locale" content="en_US">
+
+  <!-- ===== TWITTER CARD ===== -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="UpLift Fitness | Built For Strength">
+  <meta name="twitter:description" content="Premium gym accessories & fitness gear designed to elevate your performance. Cash on Delivery available across Bangladesh.">
+  <meta name="twitter:image" content="https://upliftfitness.com/Uplift_Logo.png">
+
+  <!-- ===== FAVICON ===== -->
+  <link rel="icon" href="Uplift_Logo.png" type="image/png">
+  <link rel="apple-touch-icon" href="Uplift_Logo.png">
+
+  <!-- ===== STRUCTURED DATA (JSON-LD) ===== -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SportingGoodsStore",
+    "name": "UpLift Fitness",
+    "description": "Premium gym accessories & fitness gear in Bangladesh, including knee supports, weights, cardio equipment, and recovery gear. Cash on Delivery available.",
+    "url": "https://upliftfitness.com/",
+    "telephone": "+8801979019938",
+    "email": "upliftfitness2@gmail.com",
+    "image": "https://upliftfitness.com/Uplift_Logo.png",
+    "priceRange": "$$",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Dhaka",
+      "addressCountry": "BD"
+    },
+    "areaServed": "BD",
+    "sameAs": []
+  }
+  </script>
+
+  <!-- ===== PERFORMANCE: RESOURCE HINTS ===== -->
+  <!-- LCP element is the hero background image — preload it directly so the
+       browser can start fetching it immediately instead of waiting to parse style.css -->
+  <link rel="preload" as="image" fetchpriority="high"
+        href="https://images.unsplash.com/photo-1517838277536-f5f99be501cd?q=80&w=800"
+        imagesrcset="https://images.unsplash.com/photo-1517838277536-f5f99be501cd?q=80&w=800 800w,
+                     https://images.unsplash.com/photo-1517838277536-f5f99be501cd?q=80&w=1600 1600w"
+        imagesizes="100vw">
+  <link rel="preconnect" href="https://images.unsplash.com">
+  <!-- Start the product-catalog fetch as early as possible instead of waiting
+       for every script to download and execute first (shortens the dependency chain) -->
+  <link rel="preload" href="data/products.json" as="fetch">
+
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Preconnect to cdnjs early since Font Awesome's CSS + webfont files are
+       fetched from it right after (PageSpeed flagged this as a missing
+       preconnect candidate worth ~120ms of LCP savings) -->
+  <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+
+  <!-- Font Awesome & Google Fonts are not needed for first paint of the hero
+       text, so load their CSS without blocking rendering (preload + swap-in),
+       falling back to a normal blocking <link> if JS is disabled -->
+  <link rel="preload" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" onload="this.onload=null;this.rel='stylesheet'">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800&display=optional" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800&display=optional">
+  </noscript>
+
+  <!-- Font Awesome's own stylesheet sets font-display:block on its icon fonts,
+       which can hide icon glyphs while loading. Override to swap (placed after
+       the FA <link> above so it wins the cascade once both are parsed). -->
+  <style>
+    @font-face{font-family:"Font Awesome 6 Free";font-style:normal;font-weight:900;font-display:swap;src:url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/webfonts/fa-solid-900.woff2") format("woff2");}
+    @font-face{font-family:"Font Awesome 6 Free";font-style:normal;font-weight:400;font-display:swap;src:url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/webfonts/fa-regular-400.woff2") format("woff2");}
+    @font-face{font-family:"Font Awesome 6 Brands";font-style:normal;font-weight:400;font-display:swap;src:url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/webfonts/fa-brands-400.woff2") format("woff2");}
+  </style>
+
+</head>
+<body>
+
+  <!-- ===== SKIP LINK ===== -->
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <!-- ===== PRELOADER ===== -->
+  <div id="preloader" class="preloader">
+    <div class="preloader-inner">
+      <div class="preloader-logo">UpLift <span class="accent-text">Fitness</span></div>
+      <div class="preloader-bar"><div class="preloader-progress" id="preloader-progress"></div></div>
+    </div>
+  </div>
+
+  <!-- ===== CUSTOM CURSOR (desktop only, see JS/CSS) ===== -->
+  <div class="cursor-dot" id="cursor-dot" aria-hidden="true"></div>
+  <div class="cursor-ring" id="cursor-ring" aria-hidden="true"></div>
+
+  <button id="scroll-top-btn" aria-label="Scroll to top">
+    <i class="fas fa-arrow-up" aria-hidden="true"></i>
+  </button>
+
+  <a href="https://wa.me/+8801979019938?text=Hi%20UpLift%20Fitness%2C%20I%27m%20interested%20in%20your%20products" target="_blank" class="whatsapp-float" aria-label="Chat with UpLift Fitness on WhatsApp">
+    <i class="fab fa-whatsapp" aria-hidden="true"></i>
+  </a>
+
+  <div id="toast-container" class="toast-container" aria-live="polite" role="status"></div>
+
+  <header>
+    <div class="navbar container">
+      <div class="logo-area">
+        <img src="Uplift_Logo.png" alt="UpLift Fitness logo" class="logo-img" onerror="this.style.display='none'">
+        <span class="brand-name">UpLift <span class="accent-text">Fitness</span></span>
+      </div>
+
+      <button class="mobile-menu-toggle" id="mobile-menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="nav-menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="nav-menu" id="nav-menu" aria-label="Main navigation">
+        <ul class="nav-links">
+          <li><a href="#" class="active" onclick="closeMobileMenu()">Home</a></li>
+          <li><a href="#products" onclick="closeMobileMenu()">Products</a></li>
+          <li><a href="#about" onclick="closeMobileMenu()">About</a></li>
+          <li><a href="#contact" onclick="closeMobileMenu()">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-icon-group">
+        <div class="wishlist-icon-container" onclick="toggleWishlistDrawer()" role="button" tabindex="0" aria-label="Open wishlist, 0 items" id="wishlist-icon-container" onkeydown="if(event.key==='Enter'||event.key===' ')toggleWishlistDrawer()">
+          <i class="fas fa-heart wishlist-icon" aria-hidden="true"></i>
+          <span id="wishlist-count-desktop" class="cart-count" aria-hidden="true" hidden>0</span>
+        </div>
+        <div class="cart-icon-container" onclick="toggleCart()" role="button" tabindex="0" aria-label="Open cart, 0 items" id="cart-icon-container" onkeydown="if(event.key==='Enter'||event.key===' ')toggleCart()">
+          <i class="fas fa-shopping-cart cart-icon" aria-hidden="true"></i>
+          <span id="cart-count" class="cart-count" aria-hidden="true">0</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="header-search-row">
+      <div class="search-bar">
+        <i class="fas fa-search search-icon" aria-hidden="true"></i>
+        <label for="search-input" class="sr-only">Search products</label>
+        <input type="text" id="search-input" placeholder="Search knee supports, dumbbells, massage guns..." oninput="handleSearch(this.value)">
+      </div>
+    </div>
+  </header>
+
+  <section class="hero" id="main-content" tabindex="-1">
+    <div class="hero-content container">
+      <h1 class="hero-title">
+        <span class="reveal-word"><span class="reveal-inner">BUILT</span></span>
+        <span class="reveal-word"><span class="reveal-inner">FOR</span></span>
+        <span class="reveal-word"><span class="reveal-inner gradient-text">STRENGTH</span></span>
+      </h1>
+      <p>Premium Gym Accessories & Gear Designed to Elevate Your Performance.</p>
+      <div class="hero-buttons">
+        <a href="#products" class="btn-primary magnetic-btn">Shop Gear</a>
+        <a href="#about" class="btn-secondary magnetic-btn">About Us</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat-item">
+          <span class="stat-number" data-counter="28" data-suffix="+">0</span>
+          <span class="stat-label">Products</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number">COD</span>
+          <span class="stat-label">All Over BD</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number" data-counter="100" data-suffix="%">0</span>
+          <span class="stat-label">Quality Gear</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SCROLLING TICKER STRIP ===== -->
+  <div class="marquee-strip" aria-hidden="true">
+    <div class="marquee-track" id="marquee-track">
+      <div class="marquee-content">
+        <span>Free Nationwide Delivery</span><span class="marquee-dot">•</span>
+        <span>Cash On Delivery</span><span class="marquee-dot">•</span>
+        <span>Pro Grade Gym Gear</span><span class="marquee-dot">•</span>
+        <span>Built For Strength</span><span class="marquee-dot">•</span>
+      </div>
+      <div class="marquee-content">
+        <span>Free Nationwide Delivery</span><span class="marquee-dot">•</span>
+        <span>Cash On Delivery</span><span class="marquee-dot">•</span>
+        <span>Pro Grade Gym Gear</span><span class="marquee-dot">•</span>
+        <span>Built For Strength</span><span class="marquee-dot">•</span>
+      </div>
+    </div>
+  </div>
+
+  <section class="features-strip" aria-label="Store highlights">
+    <div class="container features-grid">
+      <div class="feature-item">
+        <i class="fas fa-truck-fast" aria-hidden="true"></i>
+        <span>Fast Delivery</span>
+      </div>
+      <div class="feature-item">
+        <i class="fas fa-money-bill-wave" aria-hidden="true"></i>
+        <span>Cash on Delivery</span>
+      </div>
+      <div class="feature-item">
+        <i class="fas fa-shield-halved" aria-hidden="true"></i>
+        <span>Quality Guaranteed</span>
+      </div>
+      <div class="feature-item">
+        <i class="fas fa-dumbbell" aria-hidden="true"></i>
+        <span>Pro Grade Gear</span>
+      </div>
+    </div>
+  </section>
+
+  <main class="container" id="products">
+    <div class="products-header" data-reveal>
+      <h2 class="section-title">Our Premium Accessories</h2>
+      <div class="products-header-right">
+        <div class="products-count" id="products-count" aria-live="polite"></div>
+        <button type="button" class="filters-toggle" id="filters-toggle" onclick="toggleFiltersPanel()" aria-expanded="false" aria-controls="filters-sidebar">
+          <i class="fas fa-sliders" aria-hidden="true"></i> Filters
+          <span class="filters-active-count" id="filters-active-count" hidden>0</span>
+        </button>
+      </div>
+    </div>
+
+    <div class="products-layout" id="products-layout">
+      <aside class="filters-sidebar" id="filters-sidebar" aria-label="Product filters">
+
+        <div class="filter-group">
+          <button type="button" class="filter-group-header" onclick="toggleFilterGroup(this)" aria-expanded="true">
+            <span>Category</span>
+            <i class="fas fa-chevron-up" aria-hidden="true"></i>
+          </button>
+          <div class="filter-group-body">
+            <label class="filter-checkbox">
+              <input type="checkbox" class="category-filter-checkbox" value="supports" onchange="toggleCategoryCheckbox(this)">
+              <span class="checkbox-box"><i class="fas fa-check" aria-hidden="true"></i></span>
+              <span class="checkbox-label">Gear</span>
+            </label>
+            <label class="filter-checkbox">
+              <input type="checkbox" class="category-filter-checkbox" value="weights" onchange="toggleCategoryCheckbox(this)">
+              <span class="checkbox-box"><i class="fas fa-check" aria-hidden="true"></i></span>
+              <span class="checkbox-label">Weights</span>
+            </label>
+            <label class="filter-checkbox">
+              <input type="checkbox" class="category-filter-checkbox" value="cardio-core" onchange="toggleCategoryCheckbox(this)">
+              <span class="checkbox-box"><i class="fas fa-check" aria-hidden="true"></i></span>
+              <span class="checkbox-label">Cardio </span>
+            </label>
+            <label class="filter-checkbox">
+              <input type="checkbox" class="category-filter-checkbox" value="recovery" onchange="toggleCategoryCheckbox(this)">
+              <span class="checkbox-box"><i class="fas fa-check" aria-hidden="true"></i></span>
+              <span class="checkbox-label">Recovery </span>
+            </label>
+
+            <div class="filter-divider"></div>
+
+            <label class="filter-checkbox" id="sale-filter-item">
+              <input type="checkbox" id="sale-filter-checkbox" onchange="toggleSaleFilter()">
+              <span class="checkbox-box"><i class="fas fa-check" aria-hidden="true"></i></span>
+              <span class="checkbox-label"><i class="fas fa-fire" aria-hidden="true"></i> <span id="sale-filter-label">On Sale</span></span>
+            </label>
+          </div>
+        </div>
+
+        <div class="filter-group">
+          <button type="button" class="filter-group-header" onclick="toggleFilterGroup(this)" aria-expanded="true">
+            <span>Price</span>
+            <i class="fas fa-chevron-up" aria-hidden="true"></i>
+          </button>
+          <div class="filter-group-body">
+            <div class="price-slider-wrap">
+              <div class="price-slider-track">
+                <div class="price-slider-range" id="price-slider-range"></div>
+              </div>
+              <input type="range" id="price-min" class="price-range-input" min="0" max="5000" step="50" value="0" oninput="updatePriceRange()" aria-label="Minimum price">
+              <input type="range" id="price-max" class="price-range-input" min="0" max="5000" step="50" value="5000" oninput="updatePriceRange()" aria-label="Maximum price">
+            </div>
+            <div class="price-range-display" id="price-range-display">Price: 0 tk — 5000 tk</div>
+          </div>
+        </div>
+
+        <button type="button" class="btn-clear-filters" id="btn-clear-filters" onclick="clearAllFilters()" hidden>
+          <i class="fas fa-rotate-left" aria-hidden="true"></i> Clear All Filters
+        </button>
+      </aside>
+
+      <div class="products-grid" id="products-container"></div>
+    </div>
+  </main>
+
+  <section class="about-section" id="about">
+    <div class="container about-content">
+      <div class="about-text" data-reveal>
+        <h2> <span class="gradient-text">Why Shop With Us?</span></h2>
+        <p>We're not just another fitness brand. UpLift Fitness was born from a simple mission: bring <strong>professional-grade gym accessories</strong> to athletes and fitness enthusiasts across Bangladesh at honest prices.</p>
+        <ul class="about-list">
+          <li><i class="fas fa-check-circle" aria-hidden="true"></i> Hand-picked products tested for durability</li>
+          <li><i class="fas fa-check-circle" aria-hidden="true"></i> Competitive pricing — no ridiculous markups</li>
+          <li><i class="fas fa-check-circle" aria-hidden="true"></i> Cash on Delivery anywhere in Bangladesh</li>
+          <li><i class="fas fa-check-circle" aria-hidden="true"></i> Fast, reliable shipping inside & outside Dhaka</li>
+        </ul>
+      </div>
+      <div class="about-visual" data-reveal>
+        <div class="about-badge">
+          <i class="fas fa-medal" aria-hidden="true"></i>
+          <span>Trusted by<br>Athletes Nationwide</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="testimonials-section" aria-label="Customer testimonials">
+    <div class="container">
+      <h2 class="section-title" data-reveal>customer response</h2>
+      <div class="testimonials-grid">
+        <div class="testimonial-card">
+          <div class="stars" role="img" aria-label="5 out of 5 stars"><i class="fas fa-star" aria-hidden="true"></i><i class="fas fa-star" aria-hidden="true"></i><i class="fas fa-star" aria-hidden="true"></i><i class="fas fa-star" aria-hidden="true"></i><i class="fas fa-star" aria-hidden="true"></i></div>
+          <p>"The knee support is legit. Been using it for 3 months of heavy squats — still going strong. Best price I found in BD."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar" aria-hidden="true">R</div>
+            <div>
+              <h3>Rakib Hasan</h3>
+              <span>Dhaka</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="stars" role="img" aria-label="5 out of 5 stars"><i class="fas fa-star" aria-hidden="true"></i><i class="fas fa-star" aria-hidden="true"></i><i class="fas fa-star" aria-hidden="true"></i><i class="fas fa-star" aria-hidden="true"></i><i class="fas fa-star" aria-hidden="true"></i></div>
+          <p>"Ordered the massage gun and got it in 2 days. COD made it super easy. Quality is way better than I expected."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar" aria-hidden="true">S</div>
+            <div>
+              <h3>Sadia Islam</h3>
+              <span>Chittagong</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="stars" role="img" aria-label="4.5 out of 5 stars"><i class="fas fa-star" aria-hidden="true"></i><i class="fas fa-star" aria-hidden="true"></i><i class="fas fa-star" aria-hidden="true"></i><i class="fas fa-star" aria-hidden="true"></i><i class="fas fa-star-half-alt" aria-hidden="true"></i></div>
+          <p>"Power twister at this price? Unbeatable. The whole checkout process was smooth. Will order again."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar" aria-hidden="true">T</div>
+            <div>
+              <h3>Tanvir Ahmed</h3>
+              <span>Sylhet</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="newsletter-section">
+    <div class="container newsletter-content" data-reveal>
+      <h2>Get Stronger With Us</h2>
+      <p>Subscribe for product drops, fitness tips & exclusive deals.</p>
+      <form class="newsletter-form" onsubmit="subscribeNewsletter(event)">
+        <label for="newsletter-email" class="sr-only">Email address</label>
+        <input type="email" id="newsletter-email" placeholder="Enter your email" required>
+        <button type="submit"><i class="fas fa-paper-plane" aria-hidden="true"></i> Subscribe</button>
+      </form>
+    </div>
+  </section>
+
+  <div id="cart-drawer" class="cart-drawer" role="dialog" aria-modal="true" aria-labelledby="cart-drawer-title">
+    <div class="cart-header">
+      <h2 id="cart-drawer-title">Your Training Bag</h2>
+      <button class="close-cart" onclick="toggleCart()" aria-label="Close cart">
+        <i class="fas fa-times" aria-hidden="true"></i>
+      </button>
+    </div>
+    <div id="cart-items" class="cart-items"></div>
+    <div class="cart-footer">
+      <div id="cart-savings-row" class="cart-savings-row">
+        <i class="fas fa-tag" aria-hidden="true"></i> <span id="cart-savings-amount"></span>
+      </div>
+      <div id="cart-weight-row" class="cart-weight-row">
+        <span>Approximate Weight:</span>
+        <strong id="cart-weight-amount">0.00 KG</strong>
+      </div>
+      <div class="cart-total-row">
+        <span>Total:</span>
+        <span id="cart-total-amount">0 tk</span>
+      </div>
+      <button class="btn-checkout magnetic-btn" onclick="checkoutAlert()">Proceed to Checkout</button>
+    </div>
+  </div>
+  <div id="cart-overlay" class="cart-overlay" onclick="toggleCart()"></div>
+
+  <!-- ===== WISHLIST DRAWER ===== -->
+  <div id="wishlist-drawer" class="cart-drawer wishlist-drawer" role="dialog" aria-modal="true" aria-labelledby="wishlist-drawer-title">
+    <div class="cart-header">
+      <h2 id="wishlist-drawer-title">Your Wishlist</h2>
+      <button class="close-cart" onclick="toggleWishlistDrawer()" aria-label="Close wishlist">
+        <i class="fas fa-times" aria-hidden="true"></i>
+      </button>
+    </div>
+    <div id="wishlist-items" class="cart-items"></div>
+  </div>
+  <div id="wishlist-overlay" class="cart-overlay" onclick="toggleWishlistDrawer()"></div>
+
+  <!-- ===== ACCOUNT PANEL ===== -->
+  <div id="account-panel" class="cart-drawer account-panel" role="dialog" aria-modal="true" aria-labelledby="account-panel-title">
+    <div class="cart-header">
+      <h2 id="account-panel-title">Account</h2>
+      <button class="close-cart" onclick="toggleAccountPanel()" aria-label="Close account panel">
+        <i class="fas fa-times" aria-hidden="true"></i>
+      </button>
+    </div>
+    <div class="account-panel-body">
+      <div class="account-intro">
+        <div class="account-avatar" aria-hidden="true"><i class="fas fa-user"></i></div>
+        <p>UpLift Fitness doesn't require an account to shop — checkout as a guest with Cash on Delivery, every time.</p>
+      </div>
+
+      <div class="account-links">
+        <a href="https://wa.me/+8801979019938?text=Hi%20UpLift%20Fitness%2C%20I%27d%20like%20to%20check%20my%20order%20status" target="_blank" class="account-link-item">
+          <i class="fas fa-truck-fast" aria-hidden="true"></i>
+          <div>
+            <strong>Track an Order</strong>
+            <span>Chat with us on WhatsApp for live status</span>
+          </div>
+          <i class="fas fa-chevron-right account-link-arrow" aria-hidden="true"></i>
+        </a>
+        <button type="button" class="account-link-item" onclick="toggleAccountPanel();toggleWishlistDrawer()">
+          <i class="fas fa-heart" aria-hidden="true"></i>
+          <div>
+            <strong>My Wishlist</strong>
+            <span>Saved items for later</span>
+          </div>
+          <i class="fas fa-chevron-right account-link-arrow" aria-hidden="true"></i>
+        </button>
+        <button type="button" class="account-link-item" onclick="toggleAccountPanel();toggleCart()">
+          <i class="fas fa-bag-shopping" aria-hidden="true"></i>
+          <div>
+            <strong>Your Bag</strong>
+            <span>Review items before checkout</span>
+          </div>
+          <i class="fas fa-chevron-right account-link-arrow" aria-hidden="true"></i>
+        </button>
+        <a href="tel:+8801979019938" class="account-link-item">
+          <i class="fas fa-phone" aria-hidden="true"></i>
+          <div>
+            <strong>Call Us</strong>
+            <span>+8801979019938</span>
+          </div>
+          <i class="fas fa-chevron-right account-link-arrow" aria-hidden="true"></i>
+        </a>
+        <a href="mailto:upliftfitness2@gmail.com" class="account-link-item">
+          <i class="fas fa-envelope" aria-hidden="true"></i>
+          <div>
+            <strong>Email Support</strong>
+            <span>upliftfitness2@gmail.com</span>
+          </div>
+          <i class="fas fa-chevron-right account-link-arrow" aria-hidden="true"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div id="account-overlay" class="cart-overlay" onclick="toggleAccountPanel()"></div>
+
+  <!-- ===== MOBILE SEARCH OVERLAY ===== -->
+  <div id="mobile-search-overlay" class="mobile-search-overlay" role="dialog" aria-modal="true" aria-labelledby="mobile-search-title">
+    <div class="mobile-search-header">
+      <label for="mobile-search-input" class="sr-only" id="mobile-search-title">Search products</label>
+      <div class="mobile-search-bar">
+        <i class="fas fa-magnifying-glass" aria-hidden="true"></i>
+        <input type="text" id="mobile-search-input" placeholder="Search knee supports, dumbbells..." oninput="handleMobileSearch(this.value)" autocomplete="off">
+      </div>
+      <button type="button" class="mobile-search-cancel" onclick="closeMobileSearch()">Cancel</button>
+    </div>
+    <div id="mobile-search-results" class="mobile-search-results"></div>
+  </div>
+
+  <!-- ===== STICKY MOBILE BOTTOM NAVIGATION ===== -->
+  <nav class="bottom-nav" id="bottom-nav" aria-label="Mobile navigation">
+    <button type="button" class="bottom-nav-item active" id="bnav-home" onclick="bottomNavGoHome()" aria-label="Home" aria-current="page">
+      <span class="bottom-nav-icon"><i class="fas fa-house" aria-hidden="true"></i></span>
+      <span class="bottom-nav-label">Home</span>
+    </button>
+    <button type="button" class="bottom-nav-item" id="bnav-search" onclick="openMobileSearch()" aria-label="Search products">
+      <span class="bottom-nav-icon"><i class="fas fa-magnifying-glass" aria-hidden="true"></i></span>
+      <span class="bottom-nav-label">Search</span>
+    </button>
+    <button type="button" class="bottom-nav-item" id="bnav-cart" onclick="bottomNavToggleCart()" aria-label="Open cart">
+      <span class="bottom-nav-icon">
+        <i class="fas fa-cart-shopping" aria-hidden="true"></i>
+        <span id="bnav-cart-badge" class="bottom-nav-badge" hidden>0</span>
+      </span>
+      <span class="bottom-nav-label">Cart</span>
+    </button>
+    <button type="button" class="bottom-nav-item" id="bnav-wishlist" onclick="bottomNavToggleWishlist()" aria-label="Open wishlist">
+      <span class="bottom-nav-icon">
+        <i class="fas fa-heart" aria-hidden="true"></i>
+        <span id="bnav-wishlist-badge" class="bottom-nav-badge" hidden>0</span>
+      </span>
+      <span class="bottom-nav-label">Wishlist</span>
+    </button>
+    <button type="button" class="bottom-nav-item" id="bnav-account" onclick="bottomNavToggleAccount()" aria-label="Account">
+      <span class="bottom-nav-icon"><i class="fas fa-user" aria-hidden="true"></i></span>
+      <span class="bottom-nav-label">Account</span>
+    </button>
+  </nav>
+
+  <!-- ===== PRODUCT DETAIL MODAL ===== -->
+  <div id="product-modal" class="product-modal" role="dialog" aria-modal="true" aria-labelledby="pm-title">
+    <div class="product-modal-content">
+      <button class="close-product-modal" onclick="closeProductModal()" aria-label="Close product details">
+        <i class="fas fa-times" aria-hidden="true"></i>
+      </button>
+      <div class="pm-grid">
+
+        <!-- Gallery column -->
+        <div class="pm-gallery-col">
+          <div id="pm-gallery-grid" class="pm-gallery-grid"></div>
+          <div id="pm-badge" class="pm-badge"></div>
+        </div>
+
+        <!-- Info column -->
+        <div class="pm-info-side">
+          <span id="pm-category" class="pm-category"></span>
+          <h2 id="pm-title" class="pm-title"></h2>
+
+          <div id="pm-rating-row" class="pm-rating-row">
+            <span id="pm-stars" class="pm-stars" role="img"></span>
+            <span id="pm-rating-number" class="pm-rating-number"></span>
+            <span id="pm-review-count" class="pm-review-count"></span>
+          </div>
+
+          <div class="pm-price-row">
+            <span id="pm-price-original" class="pm-price-original"></span>
+            <span id="pm-price" class="pm-price"></span>
+            <span id="pm-discount-badge" class="pm-discount-badge"></span>
+            <span id="pm-stock-status" class="pm-stock-status"></span>
+          </div>
+
+          <div id="pm-countdown-row" class="pm-countdown-row">
+            <i class="fas fa-clock" aria-hidden="true"></i> Deal ends in <span id="pm-countdown-text"></span>
+          </div>
+
+          <div id="pm-weight-row" class="pm-weight-row">
+            <span>Approximate Weight: <strong id="pm-weight-value"></strong></span>
+            <span class="weight-tooltip">
+              <button type="button" class="weight-tooltip-icon" onclick="toggleWeightTooltip(this)" aria-label="What does approximate weight mean?">
+                <i class="fas fa-question-circle" aria-hidden="true"></i>
+              </button>
+              <span class="weight-tooltip-text" role="tooltip">This weight is approximate, final shipping charge will be confirmed after final measurement of product weight.</span>
+            </span>
+          </div>
+
+          <p id="pm-description" class="pm-description"></p>
+
+          <div id="pm-color-row" class="pm-color-row">
+            <span class="pm-color-label">Color: <strong id="pm-color-selected"></strong></span>
+            <div id="pm-color-swatches" class="pm-color-swatches"></div>
+          </div>
+
+          <div id="pm-size-row" class="pm-size-row">
+            <span class="pm-size-label">Size: <strong id="pm-size-selected"></strong></span>
+            <div id="pm-size-options" class="pm-size-options"></div>
+          </div>
+
+          <div id="pm-variant-row" class="pm-size-row">
+            <span class="pm-size-label"><span id="pm-variant-label-text">Option</span>: <strong id="pm-variant-selected"></strong></span>
+            <div id="pm-variant-options" class="pm-size-options"></div>
+          </div>
+
+          <div class="pm-action-row">
+            <div class="pm-quantity-controls">
+              <button class="qty-btn" onclick="changeModalQty(-1)" aria-label="Decrease quantity"><i class="fas fa-minus" aria-hidden="true"></i></button>
+              <span id="pm-qty-display" class="qty-display" aria-live="polite">1</span>
+              <button class="qty-btn" onclick="changeModalQty(1)" aria-label="Increase quantity"><i class="fas fa-plus" aria-hidden="true"></i></button>
+            </div>
+            <button id="pm-add-btn" class="btn-add-cart pm-add-btn" onclick="addToCartFromModal()">
+              <i class="fas fa-plus" aria-hidden="true"></i> Add to Bag
+            </button>
+            <button id="pm-buy-btn" class="pm-buy-btn magnetic-btn" onclick="buyNowFromModal()">
+              <i class="fas fa-bolt" aria-hidden="true"></i> Buy Now
+            </button>
+            <button id="pm-wishlist-btn" class="pm-wishlist-btn" onclick="toggleWishlist(activeModalProductId, true)" aria-label="Add to wishlist" aria-pressed="false">
+              <i class="far fa-heart" aria-hidden="true"></i>
+            </button>
+          </div>
+
+          <div class="pm-trust-row">
+            <span><i class="fas fa-truck-fast" aria-hidden="true"></i> Fast Delivery</span>
+            <span><i class="fas fa-money-bill-wave" aria-hidden="true"></i> Cash on Delivery</span>
+          </div>
+
+          <div id="pm-features-block" class="pm-features-block">
+            <h3>Key Features</h3>
+            <div id="pm-features-grid" class="pm-features-grid"></div>
+          </div>
+        </div>
+
+        <!-- Specifications column -->
+        <div id="pm-specs-col" class="pm-specs-col">
+          <h3>Specifications</h3>
+          <dl id="pm-specs-list" class="pm-specs-list"></dl>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <div id="product-modal-overlay" class="product-modal-overlay" onclick="closeProductModal()"></div>
+
+  <!-- ===== IMAGE LIGHTBOX ===== -->
+  <div id="pm-lightbox" class="pm-lightbox" onclick="closeLightbox()">
+    <button class="pm-lightbox-close" onclick="event.stopPropagation(); closeLightbox()" aria-label="Close image viewer">
+      <i class="fas fa-times" aria-hidden="true"></i>
+    </button>
+    <button class="pm-lightbox-nav pm-lightbox-prev" onclick="event.stopPropagation(); lightboxNav(-1)" aria-label="Previous image">
+      <i class="fas fa-chevron-left" aria-hidden="true"></i>
+    </button>
+    <img id="pm-lightbox-img" class="pm-lightbox-img" src="" alt="" onclick="event.stopPropagation()">
+    <button class="pm-lightbox-nav pm-lightbox-next" onclick="event.stopPropagation(); lightboxNav(1)" aria-label="Next image">
+      <i class="fas fa-chevron-right" aria-hidden="true"></i>
+    </button>
+    <div id="pm-lightbox-counter" class="pm-lightbox-counter"></div>
+  </div>
+
+  <div id="checkout-modal" class="checkout-modal" role="dialog" aria-modal="true" aria-labelledby="checkout-title">
+    <div class="checkout-content">
+      <div class="checkout-header">
+        <h2 id="checkout-title">Secure Checkout</h2>
+        <button class="close-checkout" onclick="toggleCheckoutModal()" aria-label="Close checkout">
+          <i class="fas fa-times" aria-hidden="true"></i>
+        </button>
+      </div>
+
+      <form id="checkout-form" onsubmit="submitTransaction(event)">
+        <div class="checkout-grid">
+          <div class="checkout-fields">
+            <h3>1. Contact Information</h3>
+            <div class="form-group">
+              <label for="contact-info">Email or Phone Number *</label>
+              <input type="text" id="contact-info" required placeholder="Enter email address or mobile number">
+            </div>
+
+            <h3>2. Delivery Address</h3>
+            <div class="form-group">
+              <label for="delivery-region">Region</label>
+              <input type="text" id="delivery-region" value="Bangladesh" readonly class="readonly-input">
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="first-name">First Name *</label>
+                <input type="text" id="first-name" required placeholder="John">
+              </div>
+              <div class="form-group">
+                <label for="last-name">Last Name *</label>
+                <input type="text" id="last-name" required placeholder="Doe">
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="address">Address *</label>
+              <input type="text" id="address" required placeholder="House number and street name">
+            </div>
+
+            <div class="form-group">
+              <label for="apartment">Apartment, suite, unit, etc. (optional)</label>
+              <input type="text" id="apartment" placeholder="Apartment B4, 3rd Floor">
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="city">City *</label>
+                <input type="text" id="city" required placeholder="e.g. Dhaka">
+              </div>
+              <div class="form-group">
+                <label for="thana">Thana *</label>
+                <input type="text" id="thana" required placeholder="e.g. Gulshan">
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="delivery-phone">Phone Number for Delivery *</label>
+              <input type="tel" id="delivery-phone" required placeholder="e.g. +8801XXXXXXXXX">
+            </div>
+
+            <div class="checkbox-group">
+              <input type="checkbox" id="save-info">
+              <label for="save-info">Save this information for next time</label>
+            </div>
+
+            <h3>3. Shipping Method</h3>
+            <div class="radio-group" role="radiogroup" aria-label="Shipping method">
+              <label class="radio-label">
+                <input type="radio" name="shipping" value="70" checked onchange="updateCheckoutSummary()">
+                <span>Inside Dhaka <strong>(70 tk)</strong></span>
+              </label>
+              <label class="radio-label">
+                <input type="radio" name="shipping" value="120" onchange="updateCheckoutSummary()">
+                <span>Outside Dhaka <strong>(120 tk)</strong></span>
+              </label>
+            </div>
+
+            <h3>4. Payment Method</h3>
+            <div class="payment-method-box">
+              <i class="fas fa-money-bill-wave" aria-hidden="true"></i>
+              <span>Cash on Delivery (COD)</span>
+            </div>
+          </div>
+
+          <div class="checkout-summary">
+            <h3>Order Summary</h3>
+            <div id="checkout-items-list" class="checkout-items-list"></div>
+            <hr class="summary-divider">
+            <div class="summary-row">
+              <span>Subtotal:</span>
+              <span id="summary-subtotal">0 tk</span>
+            </div>
+            <div id="summary-savings-row" class="summary-row summary-savings-row">
+              <span><i class="fas fa-tag" aria-hidden="true"></i> You Saved:</span>
+              <span id="summary-savings-amount">0 tk</span>
+            </div>
+            <div class="summary-row summary-weight-row">
+              <span>Approximate Weight:
+                <span class="weight-tooltip">
+                  <button type="button" class="weight-tooltip-icon" onclick="toggleWeightTooltip(this)" aria-label="What does approximate weight mean?">
+                    <i class="fas fa-question-circle" aria-hidden="true"></i>
+                  </button>
+                  <span class="weight-tooltip-text" role="tooltip">This weight is approximate, final shipping charge will be confirmed after final measurement of product weight.</span>
+                </span>
+              </span>
+              <span id="summary-weight">0.00 KG</span>
+            </div>
+            <div class="summary-row">
+              <span>Shipping:</span>
+              <span id="summary-shipping">70 tk</span>
+            </div>
+            <div id="summary-shipping-surcharge-row" class="summary-row summary-shipping-surcharge-row hidden">
+              <span>Estimated Weight Surcharge:</span>
+              <span id="summary-shipping-surcharge">0 tk</span>
+            </div>
+            <hr class="summary-divider">
+            <div class="summary-row total-row">
+              <span>Grand Total:</span>
+              <span id="summary-grand-total">0 tk</span>
+            </div>
+            <button type="submit" class="btn-submit-order">Confirm COD Order</button>
+            <p class="checkout-secure-note"><i class="fas fa-lock" aria-hidden="true"></i> Your information is secure & never shared</p>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <footer id="contact">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col footer-brand">
+          <div class="logo-area">
+            <img src="Uplift_Logo.png" alt="UpLift Fitness logo" class="logo-img footer-logo" onerror="this.style.display='none'">
+            <span class="brand-name">UpLift <span class="accent-text">Fitness</span></span>
+          </div>
+          <p class="footer-tagline">Built For Strength. Premium gym accessories delivered across Bangladesh.</p>
+          <div class="social-links">
+            <a href="#" aria-label="UpLift Fitness on Facebook"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
+            <a href="#" aria-label="UpLift Fitness on Instagram"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+            <a href="https://wa.me/+8801979019938" target="_blank" aria-label="Chat with UpLift Fitness on WhatsApp"><i class="fab fa-whatsapp" aria-hidden="true"></i></a>
+            <a href="#" aria-label="UpLift Fitness on YouTube"><i class="fab fa-youtube" aria-hidden="true"></i></a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h3>Shop</h3>
+          <ul>
+            <li><a href="#products" onclick="filterProducts('supports')">Supports & Gear</a></li>
+            <li><a href="#products" onclick="filterProducts('weights')">Strength & Weights</a></li>
+            <li><a href="#products" onclick="filterProducts('cardio-core')">Cardio & Core</a></li>
+            <li><a href="#products" onclick="filterProducts('recovery')">Recovery & Martial Arts</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h3>Company</h3>
+          <ul>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h3>Get In Touch</h3>
+          <ul class="footer-contact">
+            <li><i class="fas fa-phone" aria-hidden="true"></i><span>+8801979019938</span></li>
+            <li><i class="fas fa-envelope" aria-hidden="true"></i><span>upliftfitness2@gmail.com</span></li>
+            <li><i class="fas fa-location-dot" aria-hidden="true"></i><span>Dhaka, Bangladesh</span></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 UpLift Fitness. All Rights Reserved. Built For Strength.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!--
+    Scripts load in dependency order. All are plain (non-module)
+    scripts sharing the global scope on purpose — the markup above
+    uses inline onclick="..." handlers (addToCart(), openProductModal(),
+    etc.) throughout, so functions need to stay reachable as globals.
+  -->
+  <script src="js/utils.js" defer></script>
+  <script src="js/products.js" defer></script>
+  <script src="js/cart.js" defer></script>
+  <script src="js/wishlist.js" defer></script>
+  <script src="js/ui.js" defer></script>
+  <script src="js/animations.js" defer></script>
+  <script src="js/app.js" defer></script>
+</body>
+</html>

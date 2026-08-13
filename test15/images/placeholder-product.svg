@@ -1,0 +1,15 @@
+<svg width="600" height="600" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a2338"/>
+      <stop offset="100%" stop-color="#141b2d"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="600" fill="url(#bg)"/>
+  <g opacity="0.55">
+    <rect x="185" y="215" width="230" height="170" rx="14" fill="none" stroke="#3a4761" stroke-width="6"/>
+    <circle cx="235" cy="265" r="18" fill="none" stroke="#3a4761" stroke-width="6"/>
+    <path d="M185 355 L270 290 L330 335 L370 300 L415 350 L415 371 A14 14 0 0 1 401 385 L199 385 A14 14 0 0 1 185 371 Z" fill="#3a4761"/>
+  </g>
+  <text x="300" y="435" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700" fill="#5d6b85" text-anchor="middle" letter-spacing="0.5">MORE PHOTOS COMING SOON</text>
+</svg>

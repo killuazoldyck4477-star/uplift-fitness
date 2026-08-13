@@ -1,0 +1,1206 @@
+{
+  "lowStockThreshold": 5,
+  "discounts": {
+    "1": {
+      "salePrice": 299,
+      "endsAt": "2026-08-10T23:59:59"
+    },
+    "26": {
+      "salePrice": 899,
+      "endsAt": "2026-08-06T23:59:59"
+    },
+    "2": {
+      "salePrice": 299,
+      "endsAt": "2026-08-10T23:59:59"
+    }
+  },
+  "products": [
+    {
+      "id": 1,
+      "name": "11-Piece Power Resistance Band",
+      "price": 1200,
+      "category": "cardio-core",
+      "stock": 22,
+      "weight": 0.8,
+      "description": "Full 11-piece resistance band set with multiple tension levels, handles and door anchor for home workouts.",
+      "img": "https://scontent.fdac31-1.fna.fbcdn.net/v/t39.30808-6/657839453_122107105899210494_6912373395187455872_n.jpg?stp=dst-jpg_tt6&cstp=mx1000x953&ctp=s1000x953&_nc_cat=105&ccb=1-7&_nc_sid=833d8c&_nc_ohc=0cc3gCnd-mQQ7kNvwHpgczW&_nc_oc=Adrfp5lbCw_UCCfMQi05OEDX9LvngaN3gIyWVaoCxYTkbJ-YYFInnB2TNkLsqxe-3G8&_nc_zt=23&_nc_ht=scontent.fdac31-1.fna&_nc_gid=wzYjjdwBpc2UIoTlPMrjkA&_nc_ss=7e2a8&oh=00_AQDIUwTAb2k0_9B9CdBx9XPWnRq9HIbiDuQlissQo-7sxQ&oe=6A55B05E",
+      "badge": "bestseller",
+      "rating": 4.9,
+      "reviewCount": 49,
+      "features": [
+        {
+          "icon": "fa-layer-group",
+          "label": "11 Pieces Included"
+        },
+        {
+          "icon": "fa-door-closed",
+          "label": "Door Anchor Included"
+        },
+        {
+          "icon": "fa-hand-fist",
+          "label": "Foam Handles"
+        },
+        {
+          "icon": "fa-house",
+          "label": "Full Home Workout Set"
+        }
+      ],
+      "specs": {
+        "Pieces": "11",
+        "Resistance Levels": "5 bands, 10-50 lbs",
+        "Includes": "Handles, Ankle Straps, Anchor",
+        "Storage": "Carry Bag Included"
+      },
+      "images": [
+        "https://scontent.fdac31-1.fna.fbcdn.net/v/t39.30808-6/657839453_122107105899210494_6912373395187455872_n.jpg?stp=dst-jpg_tt6&cstp=mx1000x953&ctp=s1000x953&_nc_cat=105&ccb=1-7&_nc_sid=833d8c&_nc_ohc=0cc3gCnd-mQQ7kNvwHpgczW&_nc_oc=Adrfp5lbCw_UCCfMQi05OEDX9LvngaN3gIyWVaoCxYTkbJ-YYFInnB2TNkLsqxe-3G8&_nc_zt=23&_nc_ht=scontent.fdac31-1.fna&_nc_gid=wzYjjdwBpc2UIoTlPMrjkA&_nc_ss=7e2a8&oh=00_AQDIUwTAb2k0_9B9CdBx9XPWnRq9HIbiDuQlissQo-7sxQ&oe=6A55B05E",
+        "images/placeholder-product.svg",
+        "images/placeholder-product.svg",
+        "images/placeholder-product.svg",
+        "images/placeholder-product.svg",
+        "images/placeholder-product.svg"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Knee Support (Ninja, 1pc)",
+      "price": 399,
+      "category": "supports",
+      "stock": 24,
+      "weight": 0.18,
+      "description": "A single compression knee sleeve built for heavy squats, leg day and daily joint support. Breathable neoprene keeps the joint warm and stable through your working sets.",
+      "img": [
+        "https://scontent.fdac31-1.fna.fbcdn.net/v/t39.30808-6/659651410_122106978315210494_3159212182352961001_n.jpg?stp=dst-jpg_tt6&cstp=mx350x320&ctp=s350x320&_nc_cat=106&ccb=1-7&_nc_sid=833d8c&_nc_ohc=uvZu0fJo-eQQ7kNvwHko6fq&_nc_oc=Adp4UwwM6TUokuOqjAvlWjw21EdWhOiTJXJj8RFKx810SXy88wRDg6ct0aBq51JwD1Y&_nc_zt=23&_nc_ht=scontent.fdac31-1.fna&_nc_gid=fTd_e7QuVzuvKggRi2rWJw&_nc_ss=7e2a8&oh=00_AQB7Z0gq-9ajhpr1S4pUiCSdtIMdXfBF0ZA0hNX1y05NNQ&oe=6A4C79AD"
+      ],
+      "badge": "bestseller",
+      "rating": 4.7,
+      "reviewCount": 56,
+      "colors": [
+        {
+          "name": "Black",
+          "hex": "#1a1a1a"
+        },
+        {
+          "name": "Grey",
+          "hex": "#8a8f98"
+        }
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "features": [
+        {
+          "icon": "fa-shield-halved",
+          "label": "4-Way Stretch Fabric"
+        },
+        {
+          "icon": "fa-wind",
+          "label": "Breathable Neoprene"
+        },
+        {
+          "icon": "fa-arrows-left-right",
+          "label": "Non-Slip Silicone Grip"
+        },
+        {
+          "icon": "fa-dumbbell",
+          "label": "Built for Heavy Lifts"
+        }
+      ],
+      "specs": {
+        "Material": "Neoprene + Nylon Blend",
+        "Sizes": "S / M / L / XL",
+        "Fit": "Single Knee",
+        "Care": "Hand Wash"
+      },
+      "images": [
+        [
+          "https://scontent.fdac31-1.fna.fbcdn.net/v/t39.30808-6/659651410_122106978315210494_3159212182352961001_n.jpg?stp=dst-jpg_tt6&cstp=mx350x320&ctp=s350x320&_nc_cat=106&ccb=1-7&_nc_sid=833d8c&_nc_ohc=uvZu0fJo-eQQ7kNvwHko6fq&_nc_oc=Adp4UwwM6TUokuOqjAvlWjw21EdWhOiTJXJj8RFKx810SXy88wRDg6ct0aBq51JwD1Y&_nc_zt=23&_nc_ht=scontent.fdac31-1.fna&_nc_gid=fTd_e7QuVzuvKggRi2rWJw&_nc_ss=7e2a8&oh=00_AQB7Z0gq-9ajhpr1S4pUiCSdtIMdXfBF0ZA0hNX1y05NNQ&oe=6A4C79AD"
+        ],
+        "images/placeholder-product.svg",
+        "images/placeholder-product.svg",
+        "images/placeholder-product.svg",
+        "images/placeholder-product.svg",
+        "images/placeholder-product.svg"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Gloves (M/L/XL)",
+      "price": 450,
+      "category": "supports",
+      "stock": 35,
+      "weight": 0.2,
+      "description": "Padded training gloves for weightlifting and gym work, available in M/L/XL sizing.",
+      "img": "https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?q=80&w=400",
+      "badge": "bestseller",
+      "images": [
+        "https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?q=80&w=400",
+        "images/placeholder-product.svg",
+        "images/placeholder-product.svg",
+        "images/placeholder-product.svg"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Knee Support (Ninja, 2pcs)",
+      "price": 499,
+      "category": "supports",
+      "stock": 15,
+      "weight": 0.35,
+      "description": "A matching pair of compression knee sleeves, sold together for even support on both knees during squats, lunges and running.",
+      "img": "https://www.neo-g.com/cdn/shop/files/735_8_400x.png?v=1757331688",
+      "images": [
+        "https://www.neo-g.com/cdn/shop/files/735_8_400x.png?v=1757331688",
+        "images/placeholder-product.svg",
+        "images/placeholder-product.svg",
+        "images/placeholder-product.svg"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Wrist Support",
+      "price": 399,
+      "category": "supports",
+      "stock": 0,
+      "weight": 0.18,
+      "description": "Adjustable wrist wrap for extra stability during heavy pressing movements and to reduce strain on the joint.",
+      "img": "",
+      "images": [
+        "",
+        "images/placeholder-product.svg",
+        "images/placeholder-product.svg",
+        "images/placeholder-product.svg"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Elbow Support",
+      "price": 499,
+      "category": "supports",
+      "stock": 8,
+      "weight": 0.25,
+      "description": "Compression sleeve for the elbow joint, ideal for pushing/pulling exercises and reducing tendon strain.",
+      "img": "https://scontent.fdac31-2.fna.fbcdn.net/v/t39.30808-6/660443164_122106976245210494_679373829282434274_n.jpg?stp=dst-jpg_tt6&cstp=mx1500x1500&ctp=s1500x1500&_nc_cat=103&ccb=1-7&_nc_sid=833d8c&_nc_ohc=ZbLv7coGxaoQ7kNvwEkzhNs&_nc_oc=AdouThEjN96tKjJoNDtdoTqwtb2YjVND6YLGCyaOJKLnAgvzDVmEvSkI_aDuGiwZ4AQ&_nc_zt=23&_nc_ht=scontent.fdac31-2.fna&_nc_gid=FjMCAd_YWRUCq6LBJYPfnA&_nc_ss=7e2a8&oh=00_AQAVq-ULurmUzeAWx5MPvjqRvKuhl2_TvK8fzPIZENIy-A&oe=6A4C99E8",
+      "images": [
+        "https://scontent.fdac31-2.fna.fbcdn.net/v/t39.30808-6/660443164_122106976245210494_679373829282434274_n.jpg?stp=dst-jpg_tt6&cstp=mx1500x1500&ctp=s1500x1500&_nc_cat=103&ccb=1-7&_nc_sid=833d8c&_nc_ohc=ZbLv7coGxaoQ7kNvwEkzhNs&_nc_oc=AdouThEjN96tKjJoNDtdoTqwtb2YjVND6YLGCyaOJKLnAgvzDVmEvSkI_aDuGiwZ4AQ&_nc_zt=23&_nc_ht=scontent.fdac31-2.fna&_nc_gid=FjMCAd_YWRUCq6LBJYPfnA&_nc_ss=7e2a8&oh=00_AQAVq-ULurmUzeAWx5MPvjqRvKuhl2_TvK8fzPIZENIy-A&oe=6A4C99E8",
+        "images/placeholder-product.svg",
+        "images/placeholder-product.svg",
+        "images/placeholder-product.svg"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Head Band",
+      "price": 250,
+      "category": "supports",
+      "stock": 4,
+      "weight": 0.08,
+      "description": "Sweat-wicking elastic head band to keep hair and sweat out of your eyes during training.",
+      "img": "https://images.unsplash.com/photo-1606902960316-373db19fe82a?q=80&w=400",
+      "images": [
+        "https://images.unsplash.com/photo-1606902960316-373db19fe82a?q=80&w=400",
+        "images/placeholder-product.svg",
+        "images/placeholder-product.svg",
+        "images/placeholder-product.svg"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Weighted Belt",
+      "price": 1499,
+      "category": "supports",
+      "stock": 5,
+      "weight": 1.2,
+      "description": "Heavy-duty weighted belt for boxing and combat sports conditioning, adjustable to fit most waist sizes.",
+      "img": "https://images.unsplash.com/photo-1549719386-74dfcbf7dbed?q=80&w=400",
+      "badge": "new",
+      "images": [
+        "https://images.unsplash.com/photo-1549719386-74dfcbf7dbed?q=80&w=400",
+        "images/placeholder-product.svg",
+        "images/placeholder-product.svg",
+        "images/placeholder-product.svg"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Jump Rope (383)",
+      "price": 400,
+      "category": "cardio-core",
+      "stock": 3,
+      "weight": 0.25,
+      "description": "Lightweight speed rope for cardio, HIIT and skill work. Model 383.",
+      "img": "https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?q=80&w=400",
+      "images": [
+        "https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?q=80&w=400",
+        "images/placeholder-product.svg",
+        "images/placeholder-product.svg",
+        "images/placeholder-product.svg"
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Jump Rope (392)",
+      "price": 350,
+      "category": "cardio-core",
+      "stock": 7,
+      "weight": 0.22,
+      "description": "Lightweight speed rope for cardio, HIIT and skill work. Model 392.",
+      "img": "https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?q=80&w=400",
+      "images": [
+        "https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?q=80&w=400",
+        "images/placeholder-product.svg",
+        "images/placeholder-product.svg",
+        "images/placeholder-product.svg"
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Abdominal Muscle Fitness Wheel (Red)",
+      "price": 799,
+      "category": "cardio-core",
+      "stock": 12,
+      "weight": 0.8,
+      "description": "Ab roller wheel for core strengthening, built with a non-slip grip and smooth-rolling wheel.",
+      "img": "https://images.unsplash.com/photo-1600881333168-2ef49b341f30?q=80&w=400",
+      "badge": "bestseller",
+      "images": [
+        "https://images.unsplash.com/photo-1600881333168-2ef49b341f30?q=80&w=400",
+        "images/placeholder-product.svg",
+        "images/placeholder-product.svg",
+        "images/placeholder-product.svg"
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Elbow Supports Auto Rebound Roller (4 wheel)",
+      "price": 2499,
+      "category": "cardio-core",
+      "stock": 3,
+      "weight": 1.8,
+      "description": "4-wheel auto rebound ab roller with elbow support pads for controlled, lower back-friendly core training.",
+      "img": "https://images.unsplash.com/photo-1600881333168-2ef49b341f30?q=80&w=400",
+      "images": [
+        "https://images.unsplash.com/photo-1600881333168-2ef49b341f30?q=80&w=400",
+        "images/placeholder-product.svg",
+        "images/placeholder-product.svg",
+        "images/placeholder-product.svg"
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Elbow Supports Auto Rebound Roller (6 wheel)",
+      "price": 3000,
+      "category": "cardio-core",
+      "stock": 2,
+      "weight": 2.4,
+      "description": "6-wheel auto rebound ab roller with elbow support pads for maximum core stability during rollouts.",
+      "img": "https://images.unsplash.com/photo-1600881333168-2ef49b341f30?q=80&w=400",
+      "images": [
+        "https://images.unsplash.com/photo-1600881333168-2ef49b341f30?q=80&w=400",
+        "images/placeholder-product.svg",
+        "images/placeholder-product.svg",
+        "images/placeholder-product.svg"
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Weight Lifting Hooks (Plastic)",
+      "price": 1200,
+      "category": "weights",
+      "stock": 10,
+      "weight": 0.45,
+      "description": "Lifting hooks with plastic-coated grip to reduce forearm and hand fatigue on pulling movements.",
+      "img": "https://images.unsplash.com/photo-1517838277536-f5f99be501cd?q=80&w=400",
+      "images": [
+        "https://images.unsplash.com/photo-1517838277536-f5f99be501cd?q=80&w=400",
+        "images/placeholder-product.svg",
+        "images/placeholder-product.svg",
+        "images/placeholder-product.svg"
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Weight Lifting Hooks (Steel)",
+      "price": 1500,
+      "category": "weights",
+      "stock": 9,
+      "weight": 0.7,
+      "description": "Heavy-duty steel lifting hooks for maximum durability during deadlifts and pulls.",
+      "img": "https://images.unsplash.com/photo-1517838277536-f5f99be501cd?q=80&w=400",
+      "images": [
+        "https://images.unsplash.com/photo-1517838277536-f5f99be501cd?q=80&w=400",
+        "images/placeholder-product.svg",
+        "images/placeholder-product.svg",
+        "images/placeholder-product.svg"
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Power Twister",
+      "price": 550,
+      "category": "weights",
+      "stock": 18,
+      "weight": 0.9,
+      "description": "Spring-loaded chest and arm power twister. Pick your resistance level, from a 20kg starter bar up to a 50kg bar for advanced training.",
+      "img": "https://images.unsplash.com/photo-1517838277536-f5f99be501cd?q=80&w=400",
+      "images": [
+        "https://images.unsplash.com/photo-1517838277536-f5f99be501cd?q=80&w=400",
+        "images/placeholder-product.svg",
+        "images/placeholder-product.svg",
+        "images/placeholder-product.svg"
+      ],
+      "specs": {
+        "Type": "Spring-Loaded Chest/Arm Twister",
+        "Resistance Options": "20kg / 30kg / 40kg / 50kg"
+      },
+      "variants": {
+        "label": "Resistance",
+        "options": [
+          {
+            "name": "20kg",
+            "price": 550,
+            "weight": 0.9,
+            "stock": 18
+          },
+          {
+            "name": "30kg",
+            "price": 650,
+            "weight": 1.0,
+            "stock": 16
+          },
+          {
+            "name": "40kg",
+            "price": 750,
+            "weight": 1.1,
+            "stock": 11
+          },
+          {
+            "name": "50kg",
+            "price": 850,
+            "weight": 1.2,
+            "stock": 6
+          }
+        ]
+      }
+    },
+    {
+      "id": 20,
+      "name": "Hex Dumbbell (2.5-50kg)",
+      "price": 250,
+      "category": "weights",
+      "stock": 100,
+      "weight": 1.0,
+      "description": "Cast iron dumbbell, priced per kilogram. Let us know your desired weight when ordering.",
+      "img": "https://images.unsplash.com/photo-1638536532686-d610adfc8e5c?q=80&w=400",
+      "images": [
+        "https://images.unsplash.com/photo-1638536532686-d610adfc8e5c?q=80&w=400",
+        "images/placeholder-product.svg",
+        "images/placeholder-product.svg",
+        "images/placeholder-product.svg"
+      ],
+      "specs": {
+      "Type": "Hex Dumbbell",
+      "Weight Options": "2.5kg / 5kg / 7.5kg / 10kg / 12.5kg / 15kg"
+      },
+    "variants": {
+      "label": "Weight",
+      "options": [
+        {
+          "name": "2.5kg",
+          "price": 625,
+          "weight": 2.5,
+          "stock": 18
+        },
+        {
+          "name": "5kg",
+          "price": 1250,
+          "weight": 5,
+          "stock": 16
+        },
+        {
+          "name": "7.5kg",
+          "price": 1875,
+          "weight": 7.5,
+          "stock": 11
+        },
+        {
+          "name": "10kg",
+          "price": 2500,
+          "weight": 10,
+          "stock": 10
+        },
+        {
+          "name": "12.5kg",
+          "price": 3125,
+          "weight": 12.5,
+          "stock": 8
+        },
+        {
+          "name": "15kg",
+          "price": 3750,
+          "weight": 15,
+          "stock": 6
+        }
+      ]
+    }
+    },
+    {
+      "id": 21,
+      "name": "Kettle Bell (per kg)",
+      "price": 450,
+      "category": "weights",
+      "stock": 45,
+      "weight": 1.0,
+      "description": "Cast iron kettlebell, priced per kilogram, for swings, cleans and full-body conditioning.",
+      "img": "https://images.unsplash.com/photo-1546483875-5f01450a876a?q=80&w=400",
+      "badge": "new",
+      "images": [
+        "https://images.unsplash.com/photo-1546483875-5f01450a876a?q=80&w=400",
+        "images/placeholder-product.svg",
+        "images/placeholder-product.svg",
+        "images/placeholder-product.svg"
+      ],
+           "specs": {
+  "Type": "Cast Iron / Vinyl Coated Kettlebell",
+  "Weight Options": "4kg / 6kg / 8kg / 10kg / 12kg / 14kg / 16kg"
+},
+
+      "variants": {
+      "label": "Weight",
+      "options": [
+        {
+          "name": "4kg",
+          "price": 1800,
+          "weight": 4,
+          "stock": 18
+        },
+        {
+          "name": "6kg",
+          "price": 2700,
+          "weight": 6,
+          "stock": 16
+        },
+        {
+          "name": "8kg",
+          "price": 3600,
+          "weight": 8,
+          "stock": 14
+        },
+        {
+          "name": "10kg",
+          "price": 4500,
+          "weight": 10,
+          "stock": 12
+        },
+        {
+          "name": "12kg",
+          "price": 5400,
+          "weight": 12,
+          "stock": 10
+        },
+        {
+          "name": "14kg",
+          "price": 6300,
+          "weight": 14,
+          "stock": 8
+        },
+        {
+          "name": "16kg",
+          "price": 7200,
+          "weight": 16,
+          "stock": 6
+        }
+      ]
+    }
+    },
+    {
+      "id": 22,
+      "name": "Colour Dumbbell (per kg)",
+      "price": 350,
+      "category": "weights",
+      "stock": 50,
+      "weight": 1.0,
+      "description": "Vinyl-coated colour dumbbell, priced per kilogram, easier on floors and hands.",
+      "img": "https://images.unsplash.com/photo-1638536532686-d610adfc8e5c?q=80&w=400",
+      "badge": "new",
+      "images": [
+        "https://images.unsplash.com/photo-1638536532686-d610adfc8e5c?q=80&w=400",
+        "images/placeholder-product.svg",
+        "images/placeholder-product.svg",
+        "images/placeholder-product.svg"
+      ],
+           "specs": {
+  "Type": "PVC Color Dumbbell",
+  "Weight Options": "1kg / 2kg / 3kg / 4kg / 5kg / 6kg / 7kg"
+},
+      "variants": {
+      "label": "Weight",
+      "options": [
+        {
+          "name": "1kg",
+          "price": 350,
+          "weight": 1,
+          "stock": 18
+        },
+        {
+          "name": "2kg",
+          "price": 700,
+          "weight": 2,
+          "stock": 16
+        },
+        {
+          "name": "3kg",
+          "price": 1050,
+          "weight": 3,
+          "stock": 14
+        },
+        {
+          "name": "4kg",
+          "price": 1400,
+          "weight": 4,
+          "stock": 12
+        },
+        {
+          "name": "5kg",
+          "price": 1750,
+          "weight": 5,
+          "stock": 10
+        },
+        {
+          "name": "6kg",
+          "price": 2100,
+          "weight": 6,
+          "stock": 8
+        },
+        {
+          "name": "7kg",
+          "price": 2450,
+          "weight": 7,
+          "stock": 6
+        }
+      ]
+    }
+    },
+    {
+      "id": 23,
+      "name": "Suction cup (1 cup)",
+      "price": 750,
+      "category": "cardio-core",
+      "stock": 14,
+      "weight": 0.55,
+      "description": "Suction-mount sit-up bar with 1 cup, anchors to the floor for at-home ab and leg workouts.",
+      "img": "",
+      "images": [
+        "",
+        "images/placeholder-product.svg",
+        "images/placeholder-product.svg",
+        "images/placeholder-product.svg"
+      ]
+    },
+    {
+      "id": 24,
+      "name": "Suction Sit Up (2 cup)",
+      "price": 1000,
+      "category": "cardio-core",
+      "stock": 9,
+      "weight": 0.75,
+      "description": "Suction-mount sit-up bar with 2 cups for a more stable anchor on smooth flooring.",
+      "img": "",
+      "images": [
+        "",
+        "images/placeholder-product.svg",
+        "images/placeholder-product.svg",
+        "images/placeholder-product.svg"
+      ]
+    },
+    {
+      "id": 25,
+      "name": "Suction Sit Up (3 cup)",
+      "price": 1200,
+      "category": "cardio-core",
+      "stock": 4,
+      "weight": 0.95,
+      "description": "Suction-mount sit-up bar with 3 cups for maximum hold strength during sit-ups and leg raises.",
+      "img": "",
+      "images": [
+        "",
+        "images/placeholder-product.svg",
+        "images/placeholder-product.svg",
+        "images/placeholder-product.svg"
+      ]
+    },
+    {
+      "id": 26,
+      "name": "Mini Exercise Cycle / Portable Pedal Exerciser",
+      "price": 2100,
+      "category": "cardio-core",
+      "stock": 7,
+      "weight": 3.5,
+      "description": "Compact pedal exerciser for low-impact cardio at a desk or in front of the TV.",
+      "img": "https://images.unsplash.com/photo-1517838277536-f5f99be501cd?q=80&w=400",
+      "images": [
+        "https://images.unsplash.com/photo-1517838277536-f5f99be501cd?q=80&w=400",
+        "images/placeholder-product.svg",
+        "images/placeholder-product.svg",
+        "images/placeholder-product.svg"
+      ]
+    },
+    {
+      "id": 27,
+      "name": "Massage Gun",
+      "price": 1200,
+      "category": "recovery",
+      "stock": 20,
+      "weight": 0.9,
+      "description": "Percussion massage gun with multiple speed settings and heads for post-workout muscle recovery.",
+      "img": "https://img.drz.lazcdn.com/static/bd/p/bee2a2fea80e531184bd0ef20a964bed.jpg_720x720q80.jpg",
+      "badge": "bestseller",
+      "rating": 4.5,
+      "reviewCount": 52,
+      "features": [
+        {
+          "icon": "fa-gauge-high",
+          "label": "6 Speed Levels"
+        },
+        {
+          "icon": "fa-battery-full",
+          "label": "4hr Battery Life"
+        },
+        {
+          "icon": "fa-volume-low",
+          "label": "Quiet Motor"
+        },
+        {
+          "icon": "fa-shapes",
+          "label": "4 Massage Heads"
+        }
+      ],
+      "specs": {
+        "Speed Levels": "6",
+        "Battery": "2000mAh / ~4hrs",
+        "Noise Level": "< 45dB",
+        "Weight": "0.9 kg"
+      },
+      "images": [
+        "https://img.drz.lazcdn.com/static/bd/p/bee2a2fea80e531184bd0ef20a964bed.jpg_720x720q80.jpg",
+        "images/placeholder-product.svg",
+        "images/placeholder-product.svg",
+        "images/placeholder-product.svg"
+      ]
+    },
+    {
+      "id": 28,
+      "name": "Steel Nunchaku",
+      "price": 600,
+      "category": "recovery",
+      "stock": 6,
+      "weight": 0.5,
+      "description": "Training-grade steel nunchaku for martial arts practice and conditioning drills.",
+      "img": "https://images.unsplash.com/photo-1549719386-74dfcbf7dbed?q=80&w=400",
+      "images": [
+        "https://images.unsplash.com/photo-1549719386-74dfcbf7dbed?q=80&w=400",
+        "images/placeholder-product.svg",
+        "images/placeholder-product.svg",
+        "images/placeholder-product.svg"
+      ]
+    },
+    {
+      "id": 29,
+      "name": "Foam Nunchaku",
+      "price": 400,
+      "category": "recovery",
+      "stock": 0,
+      "weight": 0.25,
+      "description": "Foam-padded practice nunchaku, safer for beginners learning form and technique.",
+      "img": "https://images.unsplash.com/photo-1549719386-74dfcbf7dbed?q=80&w=400",
+      "images": [
+        "https://images.unsplash.com/photo-1549719386-74dfcbf7dbed?q=80&w=400",
+        "images/placeholder-product.svg",
+        "images/placeholder-product.svg",
+        "images/placeholder-product.svg"
+      ]
+    },
+    {
+      "id": 30,
+      "name": "Adjustable Counting Grip",
+      "price": 500,
+      "category": "supports",
+      "stock": 20,
+      "weight": 0.22,
+      "description": "Adjustable hand grip trainer with a built-in rep counter to track your squeeze workouts.",
+      "img": "images/placeholder-product.svg",
+      "images": [
+        "images/placeholder-product.svg",
+        "images/placeholder-product.svg",
+        "images/placeholder-product.svg",
+        "images/placeholder-product.svg"
+      ]
+    },
+    {
+      "id": 31,
+      "name": "4-Finger Adjustable Grip",
+      "price": 450,
+      "category": "supports",
+      "stock": 20,
+      "weight": 0.2,
+      "description": "4-finger adjustable hand gripper for building forearm and grip strength, tension adjusts to your level.",
+      "img": "images/placeholder-product.svg",
+      "images": [
+        "images/placeholder-product.svg",
+        "images/placeholder-product.svg",
+        "images/placeholder-product.svg",
+        "images/placeholder-product.svg"
+      ]
+    },
+    {
+      "id": 32,
+      "name": "Full Set Adjustable Grip",
+      "price": 800,
+      "category": "supports",
+      "stock": 15,
+      "weight": 0.6,
+      "description": "Complete adjustable grip trainer set covering a wide resistance range for all grip strengths.",
+      "img": "images/placeholder-product.svg",
+      "images": [
+        "images/placeholder-product.svg",
+        "images/placeholder-product.svg",
+        "images/placeholder-product.svg",
+        "images/placeholder-product.svg"
+      ]
+    },
+    {
+      "id": 33,
+      "name": "Hula Hoop 40 cm",
+      "price": 700,
+      "category": "cardio-core",
+      "stock": 15,
+      "weight": 0.45,
+      "description": "Compact 40cm hula hoop for core and cardio workouts at home.",
+      "img": "images/placeholder-product.svg",
+      "images": [
+        "images/placeholder-product.svg",
+        "images/placeholder-product.svg",
+        "images/placeholder-product.svg",
+        "images/placeholder-product.svg"
+      ]
+    },
+    {
+      "id": 34,
+      "name": "Hula Hoop 50 cm",
+      "price": 800,
+      "category": "cardio-core",
+      "stock": 15,
+      "weight": 0.55,
+      "description": "50cm hula hoop for core and cardio workouts at home.",
+      "img": "images/placeholder-product.svg",
+      "images": [
+        "images/placeholder-product.svg",
+        "images/placeholder-product.svg",
+        "images/placeholder-product.svg",
+        "images/placeholder-product.svg"
+      ]
+    },
+    {
+      "id": 35,
+      "name": "Hula Hoop 60 cm",
+      "price": 900,
+      "category": "cardio-core",
+      "stock": 15,
+      "weight": 0.65,
+      "description": "60cm hula hoop for core and cardio workouts at home.",
+      "img": "images/placeholder-product.svg",
+      "images": [
+        "images/placeholder-product.svg",
+        "images/placeholder-product.svg",
+        "images/placeholder-product.svg",
+        "images/placeholder-product.svg"
+      ]
+    },
+    {
+      "id": 36,
+      "name": "Hula Hoop 70 cm",
+      "price": 1000,
+      "category": "cardio-core",
+      "stock": 15,
+      "weight": 0.75,
+      "description": "70cm hula hoop for core and cardio workouts at home.",
+      "img": "images/placeholder-product.svg",
+      "images": [
+        "images/placeholder-product.svg",
+        "images/placeholder-product.svg",
+        "images/placeholder-product.svg",
+        "images/placeholder-product.svg"
+      ]
+    },
+    {
+      "id": 37,
+      "name": "Doorway Pull-Up Bar (65\u201380 cm)",
+      "price": 900,
+      "category": "weights",
+      "stock": 10,
+      "weight": 1.5,
+      "description": "No-screw doorway pull-up bar, adjustable from 65 to 80 cm to fit most standard door frames.",
+      "img": "images/placeholder-product.svg",
+      "images": [
+        "images/placeholder-product.svg",
+        "images/placeholder-product.svg",
+        "images/placeholder-product.svg",
+        "images/placeholder-product.svg"
+      ]
+    },
+    {
+      "id": 38,
+      "name": "Doorway Pull-Up Bar (75\u2013100 cm)",
+      "price": 1600,
+      "category": "weights",
+      "stock": 10,
+      "weight": 2.2,
+      "description": "No-screw doorway pull-up bar, adjustable from 75 to 100 cm for wider door frames.",
+      "img": "images/placeholder-product.svg",
+      "images": [
+        "images/placeholder-product.svg",
+        "images/placeholder-product.svg",
+        "images/placeholder-product.svg",
+        "images/placeholder-product.svg"
+      ]
+    },
+    {
+      "id": 39,
+      "name": "Doorway Pull-Up Bar (100\u2013125 cm)",
+      "price": 2300,
+      "category": "weights",
+      "stock": 8,
+      "weight": 3.0,
+      "description": "No-screw doorway pull-up bar, adjustable from 100 to 125 cm for extra-wide door frames.",
+      "img": "images/placeholder-product.svg",
+      "images": [
+        "images/placeholder-product.svg",
+        "images/placeholder-product.svg",
+        "images/placeholder-product.svg",
+        "images/placeholder-product.svg"
+      ]
+    },
+    {
+      "id": 40,
+      "name": "Silicone Grip Ring",
+      "price": 400,
+      "category": "supports",
+      "stock": 25,
+      "weight": 0.1,
+      "description": "Silicone hand grip ring for finger and forearm strengthening exercises.",
+      "img": "images/placeholder-product.svg",
+      "images": [
+        "images/placeholder-product.svg",
+        "images/placeholder-product.svg",
+        "images/placeholder-product.svg",
+        "images/placeholder-product.svg"
+      ]
+    },
+    {
+      "id": 41,
+      "name": "Gym Bag",
+      "price": 1200,
+      "category": "supports",
+      "stock": 12,
+      "weight": 0.6,
+      "description": "Durable gym duffel bag with separate shoe compartment for training gear and accessories.",
+      "img": "images/placeholder-product.svg",
+      "images": [
+        "images/placeholder-product.svg",
+        "images/placeholder-product.svg",
+        "images/placeholder-product.svg",
+        "images/placeholder-product.svg"
+      ]
+    },
+    {
+      "id": 42,
+      "name": "Yoga Mat (Basic)",
+      "price": 900,
+      "category": "cardio-core",
+      "stock": 20,
+      "weight": 0.9,
+      "description": "Non-slip basic yoga mat for stretching, yoga and floor exercises.",
+      "img": "images/placeholder-product.svg",
+      "images": [
+        "images/placeholder-product.svg",
+        "images/placeholder-product.svg",
+        "images/placeholder-product.svg",
+        "images/placeholder-product.svg"
+      ]
+    },
+    {
+      "id": 43,
+      "name": "Yoga Mat (Premium)",
+      "price": 1900,
+      "category": "cardio-core",
+      "stock": 12,
+      "weight": 1.3,
+      "description": "Extra-thick premium yoga mat with superior cushioning and grip for daily practice.",
+      "img": "images/placeholder-product.svg",
+      "images": [
+        "images/placeholder-product.svg",
+        "images/placeholder-product.svg",
+        "images/placeholder-product.svg",
+        "images/placeholder-product.svg"
+      ]
+    },
+    {
+      "id": 44,
+      "name": "Push-Up Rack Board",
+      "price": 850,
+      "category": "weights",
+      "stock": 14,
+      "weight": 1.2,
+      "description": "Multi-angle push-up rack board targeting chest, arms and shoulders from different grip positions.",
+      "img": "images/placeholder-product.svg",
+      "images": [
+        "images/placeholder-product.svg",
+        "images/placeholder-product.svg",
+        "images/placeholder-product.svg",
+        "images/placeholder-product.svg"
+      ]
+    },
+    {
+      "id": 45,
+      "name": "Resistance Loop Band (0.5\")",
+      "price": 360,
+      "category": "cardio-core",
+      "stock": 30,
+      "weight": 0.2,
+      "description": "Light resistance loop band, 0.5 inch width, for warm-ups and rehab work.",
+      "img": "images/placeholder-product.svg",
+      "images": [
+        "images/placeholder-product.svg",
+        "images/placeholder-product.svg",
+        "images/placeholder-product.svg",
+        "images/placeholder-product.svg"
+      ]
+    },
+    {
+      "id": 46,
+      "name": "Resistance Loop Band (1\")",
+      "price": 460,
+      "category": "cardio-core",
+      "stock": 30,
+      "weight": 0.3,
+      "description": "Resistance loop band, 1 inch width, for glute activation and mobility work.",
+      "img": "images/placeholder-product.svg",
+      "images": [
+        "images/placeholder-product.svg",
+        "images/placeholder-product.svg",
+        "images/placeholder-product.svg",
+        "images/placeholder-product.svg"
+      ]
+    },
+    {
+      "id": 47,
+      "name": "Resistance Loop Band (1.5\")",
+      "price": 560,
+      "category": "cardio-core",
+      "stock": 30,
+      "weight": 0.4,
+      "description": "Resistance loop band, 1.5 inch width, for medium-intensity strength training.",
+      "img": "images/placeholder-product.svg",
+      "images": [
+        "images/placeholder-product.svg",
+        "images/placeholder-product.svg",
+        "images/placeholder-product.svg",
+        "images/placeholder-product.svg"
+      ]
+    },
+    {
+      "id": 48,
+      "name": "Resistance Loop Band (2\")",
+      "price": 660,
+      "category": "cardio-core",
+      "stock": 25,
+      "weight": 0.5,
+      "description": "Resistance loop band, 2 inch width, for heavier strength and conditioning work.",
+      "img": "images/placeholder-product.svg",
+      "images": [
+        "images/placeholder-product.svg",
+        "images/placeholder-product.svg",
+        "images/placeholder-product.svg",
+        "images/placeholder-product.svg"
+      ]
+    },
+    {
+      "id": 49,
+      "name": "Resistance Loop Band (3\")",
+      "price": 760,
+      "category": "cardio-core",
+      "stock": 20,
+      "weight": 0.7,
+      "description": "Heavy-duty resistance loop band, 3 inch width, for advanced strength training.",
+      "img": "images/placeholder-product.svg",
+      "images": [
+        "images/placeholder-product.svg",
+        "images/placeholder-product.svg",
+        "images/placeholder-product.svg",
+        "images/placeholder-product.svg"
+      ]
+    },
+    {
+      "id": 50,
+      "name": "Gymnastics Ball (75 cm)",
+      "price": 1000,
+      "category": "cardio-core",
+      "stock": 10,
+      "weight": 1.2,
+      "description": "75cm exercise ball for stability, core training and stretching.",
+      "img": "images/placeholder-product.svg",
+      "images": [
+        "images/placeholder-product.svg",
+        "images/placeholder-product.svg",
+        "images/placeholder-product.svg",
+        "images/placeholder-product.svg"
+      ]
+    },
+    {
+      "id": 51,
+      "name": "Spike Gymnastics Ball (85 cm)",
+      "price": 1299,
+      "category": "cardio-core",
+      "stock": 8,
+      "weight": 1.4,
+      "description": "85cm textured spike exercise ball for stability training and massage.",
+      "img": "images/placeholder-product.svg",
+      "images": [
+        "images/placeholder-product.svg",
+        "images/placeholder-product.svg",
+        "images/placeholder-product.svg",
+        "images/placeholder-product.svg"
+      ]
+    },
+    {
+      "id": 52,
+      "name": "Capsule Gymnastics Ball (95 cm)",
+      "price": 1399,
+      "category": "cardio-core",
+      "stock": 6,
+      "weight": 1.6,
+      "description": "95cm capsule-shaped exercise ball for advanced stability and core workouts.",
+      "img": "images/placeholder-product.svg",
+      "images": [
+        "images/placeholder-product.svg",
+        "images/placeholder-product.svg",
+        "images/placeholder-product.svg",
+        "images/placeholder-product.svg"
+      ]
+    },
+    {
+      "id": 53,
+      "name": "Hand Hooks (Model 1)",
+      "price": 1050,
+      "category": "weights",
+      "stock": 12,
+      "weight": 0.35,
+      "description": "Lifting hand hooks, Model 1, to reduce grip fatigue on pulling and deadlift movements.",
+      "img": "images/placeholder-product.svg",
+      "images": [
+        "images/placeholder-product.svg",
+        "images/placeholder-product.svg",
+        "images/placeholder-product.svg",
+        "images/placeholder-product.svg"
+      ]
+    },
+    {
+      "id": 54,
+      "name": "Hand Hooks (Model 2)",
+      "price": 1250,
+      "category": "weights",
+      "stock": 10,
+      "weight": 0.45,
+      "description": "Lifting hand hooks, Model 2, with reinforced strap for heavier pulling movements.",
+      "img": "images/placeholder-product.svg",
+      "images": [
+        "images/placeholder-product.svg",
+        "images/placeholder-product.svg",
+        "images/placeholder-product.svg",
+        "images/placeholder-product.svg"
+      ]
+    },
+    {
+      "id": 55,
+      "name": "Gloves (Model 2)",
+      "price": 750,
+      "category": "supports",
+      "stock": 18,
+      "weight": 0.2,
+      "description": "Padded training gloves, Model 2, for weightlifting and general gym work.",
+      "img": "images/placeholder-product.svg",
+      "images": [
+        "images/placeholder-product.svg",
+        "images/placeholder-product.svg",
+        "images/placeholder-product.svg",
+        "images/placeholder-product.svg"
+      ]
+    },
+    {
+      "id": 56,
+      "name": "Gloves (Model 3)",
+      "price": 750,
+      "category": "supports",
+      "stock": 18,
+      "weight": 0.22,
+      "description": "Padded training gloves, Model 3, for weightlifting and general gym work.",
+      "img": "images/placeholder-product.svg",
+      "images": [
+        "images/placeholder-product.svg",
+        "images/placeholder-product.svg",
+        "images/placeholder-product.svg",
+        "images/placeholder-product.svg"
+      ]
+    },
+    {
+      "id": 57,
+      "name": "Gloves (Model 4)",
+      "price": 750,
+      "category": "supports",
+      "stock": 18,
+      "weight": 0.24,
+      "description": "Padded training gloves, Model 4, for weightlifting and general gym work.",
+      "img": "images/placeholder-product.svg",
+      "images": [
+        "images/placeholder-product.svg",
+        "images/placeholder-product.svg",
+        "images/placeholder-product.svg",
+        "images/placeholder-product.svg"
+      ]
+    },
+    {
+      "id": 58,
+      "name": "Premium Gloves",
+      "price": 850,
+      "category": "supports",
+      "stock": 15,
+      "weight": 0.28,
+      "description": "Premium padded training gloves with extra wrist support and reinforced palm.",
+      "img": "images/placeholder-product.svg",
+      "images": [
+        "images/placeholder-product.svg",
+        "images/placeholder-product.svg",
+        "images/placeholder-product.svg",
+        "images/placeholder-product.svg"
+      ]
+    },
+    {
+      "id": 59,
+      "name": "Lever Belt",
+      "price": 6500,
+      "category": "weights",
+      "stock": 5,
+      "weight": 2.2,
+      "description": "Heavy-duty lever belt for powerlifting, offering quick and secure locking for max stability under load.",
+      "img": "images/placeholder-product.svg",
+      "images": [
+        "images/placeholder-product.svg",
+        "images/placeholder-product.svg",
+        "images/placeholder-product.svg",
+        "images/placeholder-product.svg"
+      ]
+    }
+  ]
+}
